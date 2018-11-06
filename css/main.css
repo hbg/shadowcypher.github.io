@@ -45,12 +45,32 @@ h1 {
 }
 @media screen and (max-width: 990px) {
 	.div-2 {
-		margin-top: 550px;
+		margin-top: 600px;
 	}
 }
+@media screen and (max-width: 650px) {
+	.pji {
+		font-size: 5vw;
+	}
+}
+@media screen and (min-width: 651px) {
+	.pji {
+		font-size: 3vw;
+	}
+}
+#contact-form {
+	margin-left: 10vw;
+	width: 80vw;
+	text-align: center;
+	color: white;
+	font-family: 'Work Sans';
+
+}
+
 .big {
 	width: 100%;
-	height: 500px;
+	height: auto;
+	min-height: 200px;
 	
 }
 .section-icon {
@@ -106,6 +126,9 @@ td {
 	margin: 0 auto;
 
 }
+.backdrop {
+	background-color: #ff5400;
+}
 h4 {
 	font-size: 5rem;
 }
@@ -114,6 +137,34 @@ h4 {
 }
 .big-margin {
 	margin-top: 15%;
+}
+#submit-contact {
+	width: 50vw;
+	height: 7vw;
+	background: white;
+	border: 5px solid white;
+	border-radius: 25px;
+  	transition: all 0.2s ease-in-out;
+ 	font-family: 'Work Sans';
+ 	font-size: 3vw;
+ 	color: #ff5400 !important;
+
+
+}
+.custom-input {
+	background: #f12711;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border: 5px solid white;
+	border-radius: 25px;
+	width: 50vw;
+	height: 10vw;
+	font-size: 8vw;
+}
+#submit-contact:hover {
+	backgrouund: white !important;
+  	transition: all 0.2s ease-in-out;
+
 }
 .divider {
 	width: 2% !important;

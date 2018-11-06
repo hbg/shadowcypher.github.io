@@ -9,7 +9,7 @@
 		  <link href="css/animate.css" rel="stylesheet" />
 		  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 		  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
-		  <meta name="theme-color" content="#f1f1f1">
+		  <meta name="theme-color" content="#ff5400">
 		  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		  <script src="js/materialize.js"></script>
 		  <script src="js/main.js"></script>
@@ -63,14 +63,16 @@
 					<!--<h1 class="section-icon rellax" data-rellax-speed="-2">
 							<i class="fas fa-user black-text"></i>
 						</h1>-->
-					<h2 class="light-text black-text flow-text animated pulse wow rellax" data-rellax-speed="-1">
+					<h2 class="light-text black-text flow-text animated pulse wow rellax big-margin" data-rellax-speed="-1">
+					<br/>
+					<br/>
 						Since a young age, I've been enraged at things I can't do. But this <b>rage</b>, the
 						same <b>rage</b> that some regard as detrimental, has led me to discover. From developing to design, what you see here are not solely examples of me succeeding, but rather a collection of trials and failures.
 					</h2>
 					<h1 data-rellax-speed="0" class="rellax">
 						🔥
 					</h1>
-								<h1 class="black-text header-text wow animated bounceInLeft center">Past Jobs/Internships</h1>
+								<h1 class="black-text header-text wow animated bounceInLeft center pji">Past Jobs/Internships</h1>
 
 			</div>
 			<div class="big side-margin">
@@ -89,18 +91,32 @@
 				</div>
 				<div class="row companies big-margin " >
 					<div class="col s4  company">
-						<img src="assets/msh.png" class="height-row-adj center tooltipped" data-position="bottom" data-tooltip="MySocialHub"/>
+						<img src="assets/msh.png" class="height-row-adj center tooltipped" data-position="top" data-tooltip="MySocialHub"/>
 					</div>
 					<div class="col s4  company">
-												<img src="assets/cer.png" class="height-row-adj center tooltipped" data-position="bottom" data-tooltip="UCSD Center for Energy Research"/>
+												<img src="assets/cer.png" class="height-row-adj center tooltipped" data-position="top" data-tooltip="UCSD Center for Energy Research" />
 
 					</div>
 					<div class="col s4 company">
-												<img src="assets/mcc.png" class="height-row-adj center tooltipped" data-position="bottom" data-tooltip="UCSD Moores Cancer Center"/>
+												<img src="assets/mcc.png" class="height-row-adj center tooltipped" data-position="top" data-tooltip="UCSD Moores Cancer Center"/>
 
 					</div>
 				</div>
 				
+			</div>
+			<div class="big">
+				<h1 class="black-text header-text wow animated bounceInLeft center pji">Contact Me</h1>
+				<form class="center" id="contact-form">
+				  <h1 class="bold black-text">Email:<br/></h1>
+				  <input type="text" class="center browser-default custom-input" name="first_name"><br>
+				  <h1 class="bold black-text">Message:<br/></h1>
+
+				  <textarea type="paragraph-text" class="center browser-default custom-input" name="last_name"></textarea>
+				  <br/>
+				  <br/>
+				  <!--I know I shouldn't use breaks, but oh well... why are you looking anyways ;) -->
+				  <button type="submit" id="submit-contact">Submit</button>
+				</form>
 			</div>
 </body>
 </html>
